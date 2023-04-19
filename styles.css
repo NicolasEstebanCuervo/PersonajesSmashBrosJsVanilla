@@ -1,0 +1,75 @@
+body{
+  min-height: 100vh;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor_principal{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.fondo{
+  background-color:#C4D4FC;
+}
+
+section{
+  display: flex;
+}
+
+.imagen_smash{
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.div_personaje{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #fff;
+  background: #212121;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.div_personaje p{
+  font-size: 25px;
+  margin: 2px;
+}
+
+.div_personaje img{
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.div_textos{
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor_botones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boton{
+  width: 30vw;
+  height: 60px;
+  color: #fff;
+  background: #212121;
+  border-radius: 20px;
+  border: 0;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.boton:hover{
+  cursor: pointer;
+  background: #0d0d0d;
+  width: 31vw;
+  height: 61px;
+}

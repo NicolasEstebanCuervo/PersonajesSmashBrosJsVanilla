@@ -1,0 +1,74 @@
+{
+  "personajes": [
+    {
+      "nombre": "Mario",
+      "genero": "Masculino",
+      "especie": "Humano",
+      "juego": "Super Mario Bros.",
+      "imagen": "./imagenes/Mario.png"
+    },
+    {
+      "nombre": "Luigi",
+      "genero": "Masculino",
+      "especie": "Humano",
+      "juego": "Mario Bros.",
+      "imagen": "./imagenes/Luigi.png"
+    },
+    {
+      "nombre": "Donkey Kong",
+      "genero": "Masculino",
+      "especie": "Gorila",
+      "juego": "Donkey Kong",
+      "imagen": "./imagenes/Donkey.png"
+    },
+    {
+      "nombre": "Link",
+      "genero": "Masculino",
+      "especie": "Hylian",
+      "juego": "The Legend of Zelda",
+      "imagen": "./imagenes/Link.png"
+    },
+    {
+      "nombre": "Bowser",
+      "genero": "Masculuno",
+      "especie": "Koopa",
+      "juego": "Super Mario Bros.",
+      "imagen": "./imagenes/Bowser.png"
+    },
+    {
+      "nombre": "Yoshi",
+      "genero": "Masculino",
+      "especie": "Yoshi",
+      "juego": "Super Mario World",
+      "imagen": "./imagenes/Yoshi.png"
+    },
+    {
+      "nombre": "Kirby",
+      "genero": "No binario",
+      "especie": "Kirby",
+      "juego": "Kirby's Dream Land",
+      "imagen": "./imagenes/Kirby.png"
+    },
+    {
+      "nombre": "Peach",
+      "genero": "Femenino",
+      "especie": "Humano",
+      "juego": "Super Mario Bros",
+      "imagen": "./imagenes/Peach.png"
+    },
+    {
+      "nombre": "Pikachu",
+      "genero": "No binario",
+      "especie": "Pikachu",
+      "juego": "Pokémon Red/Green/Blue",
+      "imagen": "./imagenes/Picachu.png"
+    },
+    {
+      "nombre": "Pacman",
+      "genero": "No binario",
+      "especie": "Circulo amarillo",
+      "juego": "Pacman",
+      "imagen": "./imagenes/Pacman.png"
+    }
+  ]
+}
