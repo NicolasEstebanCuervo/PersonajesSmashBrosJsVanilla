@@ -1,7 +1,7 @@
 <div id="Header" align="center">
 
    <img src="https://media.giphy.com/media/m8XguqDisAIgag7oqT/giphy.gif" width="300">   
-   <h1 align="center">SmashBros  🐱 - Finalizado</h1>
+   <h1 align="center">SmashBros  🕹 - Finalizado</h1>
 
 </div>
    
