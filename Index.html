@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Información de Mario Bros</title>
-    <script src="./Js/Index.js"></script>
-    <link rel="stylesheet" type="text/css" href="../Css/Index.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="./Imagenes/Icono.png" type="image/x-icon">
-  </head>
-  <body class="fondo">
-    <section class="container">
-      <div class="contenedor_principal">
-        <img class="imagen_smash" src="../Imagenes/SmashBros.png" alt="">
-        <div id="info">
-
-        </div>
-        <div class="contenedor_botones">
-          <button class="boton" onclick="mostrarInfo() ">Generar un personaje al azar</button>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Información de Mario Bros</title>
+  <script src="./Js/Index.js"></script> <!-- Se carga el archivo JavaScript -->
+  <link rel="stylesheet" type="text/css" href="./Css/Index.css"> <!-- Se vincula el archivo de estilos CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- Se carga el CSS de Bootstrap desde una CDN -->
+  <link rel="shortcut icon" href="./Imagenes/Icono.png" type="image/x-icon"> <!-- Se establece el icono de acceso directo -->
+</head>
+<body class="fondo"> <!-- Clase para el fondo del cuerpo -->
+  <section class="container"> <!-- Contenedor principal -->
+    <div class="contenedor_principal"> <!-- Contenedor para la imagen y la información -->
+      <img class="imagen_smash" src="./Imagenes/SmashBros.png" alt=""> <!-- Imagen de Smash Bros -->
+      <div id="info"></div> <!-- Contenedor para la información del personaje -->
+      <div class="contenedor_botones"> <!-- Contenedor para los botones -->
+        <button class="boton" onclick="mostrarInfo()">Generar un personaje al azar</button> <!-- Botón para generar personaje -->
       </div>
-    <section />
-  </body>
+    </div>
+  </section>
+</body>
 </html>
